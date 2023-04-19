@@ -31,6 +31,7 @@
             this.btnJouer = new System.Windows.Forms.Button();
             this.btnInscription = new System.Windows.Forms.Button();
             this.lblTitre = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnJouer
@@ -47,7 +48,7 @@
             // btnInscription
             // 
             this.btnInscription.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInscription.Location = new System.Drawing.Point(636, 314);
+            this.btnInscription.Location = new System.Drawing.Point(597, 314);
             this.btnInscription.Name = "btnInscription";
             this.btnInscription.Size = new System.Drawing.Size(164, 60);
             this.btnInscription.TabIndex = 1;
@@ -65,11 +66,22 @@
             this.lblTitre.TabIndex = 2;
             this.lblTitre.Text = "Bienvenue";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(251, 175);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(510, 39);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Une petite partie de morpion ?";
+            // 
             // frmAccueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTitre);
             this.Controls.Add(this.btnInscription);
             this.Controls.Add(this.btnJouer);
@@ -85,6 +97,7 @@
         private System.Windows.Forms.Button btnJouer;
         private System.Windows.Forms.Button btnInscription;
         private System.Windows.Forms.Label lblTitre;
+        private System.Windows.Forms.Label label1;
     }
 }
 
