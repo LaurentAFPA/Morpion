@@ -13,9 +13,6 @@ namespace Morpion
     public partial class frmAjoutJoueur : Form
     {
         public bool insc = false;
-        internal static Joueur unJoueur = new Joueur("", "", "Joueur 1");
-        internal static Joueur deuxJoueur = new Joueur("", "", "Joueur 2");
-
         public frmAjoutJoueur()
         {
             InitializeComponent();
@@ -25,17 +22,17 @@ namespace Morpion
         {
             if (insc == false)
             {
-                unJoueur.Prenom = txtPrenom.Text;
-                unJoueur.Nom = txtNom.Text;
-                unJoueur.Pseudo = txtPseudo.Text;
+                Program.unJoueur.Prenom = txtPrenom.Text;
+                Program.unJoueur.Nom = txtNom.Text;
+                Program.unJoueur.Pseudo = txtPseudo.Text;
                 lblIdJoueur.Text = "Joueur 2";
                 insc = true;
             }
             else if (insc == true)
             {
-                deuxJoueur.Prenom = txtPrenom.Text;
-                deuxJoueur.Nom = txtNom.Text;
-                deuxJoueur.Pseudo = txtPseudo.Text;
+                Program.deuxJoueur.Prenom = txtPrenom.Text;
+                Program.deuxJoueur.Nom = txtNom.Text;
+                Program.deuxJoueur.Pseudo = txtPseudo.Text;
                 frmJeu.inscription = true;
                 frmJeu frmJ = new frmJeu();
                 frmJ.ShowDialog();

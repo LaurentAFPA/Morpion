@@ -18,5 +18,7 @@ namespace Morpion
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmAccueil());
         }
+        internal static Joueur unJoueur = new Joueur("", "", "Joueur 1");
+        internal static Joueur deuxJoueur = new Joueur("", "", "Joueur 2");
     }
 }

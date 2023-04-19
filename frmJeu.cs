@@ -19,13 +19,11 @@ namespace Morpion
         int comptCoup = 0;
         int comptManche = 0;
         bool MS = false;
-        Joueur unJoueur;
-        Joueur deuxJoueur;
         public frmJeu()
         {
             InitializeComponent();
-            lblJ1.Text = unJoueur.Pseudo;
-            lblJ2.Text = deuxJoueur.Pseudo;
+            lblJ1.Text = Program.unJoueur.Pseudo;
+            lblJ2.Text = Program.deuxJoueur.Pseudo;
             lblSJ1.Text = Convert.ToString(SJ1);
             lblSJ2.Text = Convert.ToString(SJ2);
             if (inscription == true)
@@ -75,7 +73,7 @@ namespace Morpion
                 btn2.Text != "" && btn2.Text == btn5.Text && btn5.Text == btn8.Text ||
                 btn3.Text != "" && btn3.Text == btn6.Text && btn6.Text == btn9.Text ||
                 btn1.Text != "" && btn1.Text == btn5.Text && btn5.Text == btn9.Text ||
-                btn3.Text != "" && btn3.Text == btn5.Text && btn5.Text == btn7.Text
+                btn3.Text != "" && btn3.Text == btn5.Text && btn5.Text == btn7.Text 
             )
             {
                 if (actP == 2)
@@ -231,15 +229,6 @@ namespace Morpion
         private void btn9_Click_1(object sender, EventArgs e)
         {
             Jouer(btn9);
-        }
-        /// <summary>
-        /// Détecte le clic sur le bouton "Partie Suivante"
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnMS_Click(object sender, EventArgs e)
-        {
-            ViderG();
         }
 
         /// <summary>
