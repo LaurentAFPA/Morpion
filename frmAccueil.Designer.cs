@@ -42,6 +42,7 @@
             this.btnJouer.TabIndex = 0;
             this.btnJouer.Text = "Jouer";
             this.btnJouer.UseVisualStyleBackColor = true;
+            this.btnJouer.Click += new System.EventHandler(this.btnJouer_Click);
             // 
             // btnInscription
             // 
@@ -52,6 +53,7 @@
             this.btnInscription.TabIndex = 1;
             this.btnInscription.Text = "S\'inscrire";
             this.btnInscription.UseVisualStyleBackColor = true;
+            this.btnInscription.Click += new System.EventHandler(this.btnInscription_Click);
             // 
             // lblTitre
             // 

@@ -46,16 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Accueil.cs">
+    <Compile Include="frmAccueil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Accueil.Designer.cs">
-      <DependentUpon>Accueil.cs</DependentUpon>
+    <Compile Include="frmAccueil.Designer.cs">
+      <DependentUpon>frmAccueil.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAjoutJoueur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjoutJoueur.Designer.cs">
+      <DependentUpon>frmAjoutJoueur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJeu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJeu.Designer.cs">
+      <DependentUpon>frmJeu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joueur.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Accueil.resx">
-      <DependentUpon>Accueil.cs</DependentUpon>
+    <EmbeddedResource Include="frmAccueil.resx">
+      <DependentUpon>frmAccueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAjoutJoueur.resx">
+      <DependentUpon>frmAjoutJoueur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJeu.resx">
+      <DependentUpon>frmJeu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
