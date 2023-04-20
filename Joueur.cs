@@ -51,5 +51,7 @@ namespace Morpion
             this.Nom = Nom;
             this.Pseudo = Pseudo;
         }
+        internal static Joueur unJoueur = new Joueur("", "", "Joueur 1");
+        internal static Joueur deuxJoueur = new Joueur("", "", "Joueur 2");
     }
 }

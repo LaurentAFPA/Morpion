@@ -99,6 +99,7 @@
             // 
             this.lblJ2.AutoSize = true;
             this.lblJ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJ2.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.lblJ2.Location = new System.Drawing.Point(828, 142);
             this.lblJ2.Name = "lblJ2";
             this.lblJ2.Size = new System.Drawing.Size(84, 24);
@@ -109,6 +110,7 @@
             // 
             this.lblJ1.AutoSize = true;
             this.lblJ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJ1.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.lblJ1.Location = new System.Drawing.Point(128, 142);
             this.lblJ1.Name = "lblJ1";
             this.lblJ1.Size = new System.Drawing.Size(84, 24);

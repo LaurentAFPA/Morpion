@@ -22,8 +22,8 @@ namespace Morpion
         public frmJeu()
         {
             InitializeComponent();
-            lblJ1.Text = Program.unJoueur.Pseudo;
-            lblJ2.Text = Program.deuxJoueur.Pseudo;
+            lblJ1.Text = Joueur.unJoueur.Pseudo + " (O)";
+            lblJ2.Text = Joueur.deuxJoueur.Pseudo + " (X)";
             lblSJ1.Text = Convert.ToString(SJ1);
             lblSJ2.Text = Convert.ToString(SJ2);
             if (inscription == true)

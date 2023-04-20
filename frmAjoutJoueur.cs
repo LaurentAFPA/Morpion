@@ -22,17 +22,17 @@ namespace Morpion
         {
             if (insc == false)
             {
-                Program.unJoueur.Prenom = txtPrenom.Text;
-                Program.unJoueur.Nom = txtNom.Text;
-                Program.unJoueur.Pseudo = txtPseudo.Text;
+                Joueur.unJoueur.Prenom = txtPrenom.Text;
+                Joueur.unJoueur.Nom = txtNom.Text;
+                Joueur.unJoueur.Pseudo = txtPseudo.Text;
                 lblIdJoueur.Text = "Joueur 2";
                 insc = true;
             }
             else if (insc == true)
             {
-                Program.deuxJoueur.Prenom = txtPrenom.Text;
-                Program.deuxJoueur.Nom = txtNom.Text;
-                Program.deuxJoueur.Pseudo = txtPseudo.Text;
+                Joueur.deuxJoueur.Prenom = txtPrenom.Text;
+                Joueur.deuxJoueur.Nom = txtNom.Text;
+                Joueur.deuxJoueur.Pseudo = txtPseudo.Text;
                 frmJeu.inscription = true;
                 frmJeu frmJ = new frmJeu();
                 frmJ.ShowDialog();
