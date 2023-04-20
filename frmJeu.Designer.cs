@@ -119,11 +119,11 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(419, 31);
+            this.lblTitle.Location = new System.Drawing.Point(442, 34);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(230, 39);
+            this.lblTitle.Size = new System.Drawing.Size(182, 39);
             this.lblTitle.TabIndex = 39;
-            this.lblTitle.Text = "TIC TAC TOE";
+            this.lblTitle.Text = "MORPION";
             // 
             // btn9
             // 
