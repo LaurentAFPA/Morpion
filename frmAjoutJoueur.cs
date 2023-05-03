@@ -34,6 +34,7 @@ namespace Morpion
                 Joueur.deuxJoueur.Nom = txtNom.Text;
                 Joueur.deuxJoueur.Pseudo = txtPseudo.Text;
                 frmJeu.inscription = true;
+                this.Hide();
                 frmJeu frmJ = new frmJeu();
                 frmJ.ShowDialog();
                 this.Close();

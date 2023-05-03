@@ -238,6 +238,7 @@ namespace Morpion
         /// <param name="e"></param>
         private void btnILJ_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
             frmAjoutJoueur frmAJ = new frmAjoutJoueur();
             frmAJ.ShowDialog();
             this.Close();

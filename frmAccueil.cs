@@ -19,6 +19,7 @@ namespace Morpion
 
         private void btnJouer_Click(object sender, EventArgs e)
         {
+            this.Hide();
             frmJeu frmJ = new frmJeu();
             frmJ.ShowDialog();
             this.Close();
