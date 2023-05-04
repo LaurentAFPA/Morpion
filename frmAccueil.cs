@@ -27,6 +27,7 @@ namespace Morpion
 
         private void btnInscription_Click(object sender, EventArgs e)
         {
+            this.Hide();
             frmAjoutJoueur frmAJ = new frmAjoutJoueur();
             frmAJ.ShowDialog();
             this.Close();
